@@ -1,0 +1,14 @@
+/*1.Writing switch case using map*/
+getCaffeine(type){
+string caffeine;
+const map={
+    'Redbull':'147 mg',
+    'coffee':'55 mg',
+    'Tea':'18 mg',
+    'Soda':'6 mg'
+};
+  caffeine=map[type] ?? 'Not Found';
+  return caffeine;
+}
+print(getCaffeine('Redbull'));  =>147 mg
+----------------------------------------------------
