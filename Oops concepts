@@ -32,7 +32,22 @@ return;
 }
 }
 ------------------------------------------------------
+/*3.Spread and rest operators
+let arr1=[1,2,3];
+let arr2=[...arr1,4,5,6];
+console.log(arr2);  =>[1,2,3,4,5,6]
 
+Rest Operators
+function anyWork(a,b,c,...others){
+console.log(a); =>2
 
+console.log(b); =>4
+
+console.log(c); =>6
+
+console.log(others);    =>[8,10,12,14,16]
+}
+anyWork(2,4,6,8,10,12,14,16);
+----------------------------------------------------------------------------
 
 
