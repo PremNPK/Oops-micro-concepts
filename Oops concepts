@@ -49,5 +49,46 @@ console.log(others);    =>[8,10,12,14,16]
 }
 anyWork(2,4,6,8,10,12,14,16);
 ----------------------------------------------------------------------------
+/*4.Javacsript super() keyword*/
+class Person{
+    constructor(name){
+    this.name=name;
+    }
+    greet(){
+    console.log(`Hello ${this.name}`);
+    }
+}
+class Students extends Person{
+    constuctor(name){
+    super(name);
+    }
+}
+let stu=new Students("Prem");
+stu.greet();
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
